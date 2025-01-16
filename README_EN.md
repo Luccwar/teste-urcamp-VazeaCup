@@ -1,6 +1,6 @@
 <a href="https://github.com/Luccwar/teste-urcamp-VazeaCup/blob/main/README_EN.md"><img alt="Change Language to English" src="https://img.shields.io/badge/lang-en-darkred"></a> <a href="https://github.com/Luccwar/teste-urcamp-VazeaCup/blob/main/README.md"><img alt="Mudar Língua para o Português Brasileiro" src="https://img.shields.io/badge/lang-pt--br-darkgreen" ></a>
 
-# Varzea Cup
+# Varzea Cup - Project only available in Brazilian Portuguese
 
 Hello, this project was developed as part of an evaluation for Urcamp. I would like to highlight that the pure PHP project is complete; however, due to complications during development, it was only possible to create the API, without a front-end to consume the data.
 

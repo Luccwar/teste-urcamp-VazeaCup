@@ -1,3 +1,5 @@
+<a href="https://github.com/Luccwar/teste-urcamp-VazeaCup/blob/main/README_EN.md"><img alt="Change Language to English" src="https://img.shields.io/badge/lang-en-darkred"></a> <a href="https://github.com/Luccwar/teste-urcamp-VazeaCup/blob/main/README.md"><img alt="Mudar Língua para o Português Brasileiro" src="https://img.shields.io/badge/lang-pt--br-darkgreen" ></a>
+
 # Varzea Cup
 
 Olá, este projeto foi desenvolvido como parte de uma avaliação para a Urcamp. Destaco que o projeto em PHP puro está completo, contudo, devido a complicações durante o desenvolvimento, foi possível apenas criar a API deste, sem um front-end para consumir os dados.

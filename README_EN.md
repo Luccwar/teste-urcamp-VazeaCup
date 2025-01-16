@@ -24,7 +24,7 @@ All creation and editing forms for records in the project within the VarzeaCup f
 
 Ensure that the following requirements are installed:
 
-- PHP 8.3 e Laravel 11 - The project was developed using these framework versions. It may work with earlier versions, but this is not guaranteed;
+- PHP 8.3 and Laravel 11 - The project was developed using these framework versions. It may work with earlier versions, but this is not guaranteed;
 - Composer in its most updated version;
 - PostgreSQL 16 Relational Database and pgAdmin4;
 - NodeJS in its most updated version.

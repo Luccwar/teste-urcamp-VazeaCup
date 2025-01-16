@@ -1,0 +1,295 @@
+
+/* Estilo Global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.5;
+}
+/* Fim do Estilo Global */
+
+/* Listagem */
+.users-container, .teams-container, .games-container, .home-container {
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.create-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.create-button:hover {
+    background-color: #555;
+}
+
+.user-table, .team-table, .game-table, .home-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 18px;
+    text-align: left;
+    color: #333;
+}
+
+.user-table th, .user-table td,
+.team-table th, .team-table td,
+.game-table th, .game-table td,
+.home-table th, .home-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.user-table th, .team-table th, .game-table th, .home-table th {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.user-table td, .team-table td, .game-table td, .home-table td {
+    text-align: center;
+}
+
+.action-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+    color: #004a99;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.delete-button:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+/* Fim da Listagem */
+
+/* Formulários de Criação e Edição */
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.form-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border: 1px solid #bee3f8;
+    border-radius: 4px;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.form-button:hover {
+    background-color: #555;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Fim dos Formulários de Criação e Edição */
+
+/* Navbar */
+
+.navbar {
+    background-color: white; /* Fundo branco */
+    color: black; /* Texto preto */
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Linha fina na parte inferior */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #495057;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    color: #333;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navbar-link {
+    color: #495057; 
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+}
+
+.navbar-link:hover {
+    color: black; 
+}
+
+.navbar-link.active {
+    color: black;
+}
+
+.navbar-link.active:hover {
+    color: #495057;
+}
+
+/* Separador entre os links */
+.navbar-separator {
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.navbar-form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.navbar-logout {
+    all: unset; /* Remove todos os estilos padrão do botão */
+    cursor: pointer;
+    color: #495057;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 4px;
+}
+
+.navbar-logout:hover {
+    color: black;
+}
+
+
+/* Fim da Navbar */

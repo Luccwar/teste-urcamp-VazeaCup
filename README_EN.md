@@ -2,7 +2,7 @@
 
 # Varzea Cup - Project only available in Brazilian Portuguese
 
-Hello, this project was developed as part of an evaluation for Urcamp. I would like to highlight that the pure PHP project is complete; however, due to complications during development, it was only possible to create the API, without a front-end to consume the data.
+Hello, this project was developed as part of an evaluation for Urcamp. I would like to highlight that the pure PHP project is complete, however, due to complications during development, it was only possible to create the API, without a front-end to consume the data.
 
 ## Tables of Content
 

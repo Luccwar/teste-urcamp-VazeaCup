@@ -39,7 +39,7 @@ git clone https://github.com/Luccwar/teste-urcamp-VazeaCup.git
 
 - Choose which directory of the project you want to access. The instructions below apply to both:
 
-    - **PHP Puro**: This project covers both the Back-End and the Front-End, fully developed in PHP.
+    - **Pure PHP**: This project covers both the Back-End and the Front-End, fully developed in PHP.
     ```bash
     cd teste-urcamp-VazeaCup/VarzeaCup
     ```
